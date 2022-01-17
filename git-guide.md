@@ -13,7 +13,7 @@
 - push
 	- Pushes the information that was created or changed to the repository that 
           you are working in to send to GitHub.
-	- git push
+	- Example: git push
 - fetch
 - merge
 - pull
