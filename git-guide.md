@@ -12,6 +12,8 @@
           to the cloned repository you currently working from.
 	- Example: git add .
 - rm
+	- removes files from the current repository.
+	- Example: git remove example.txt
 - commit
 	- This commend creates a snapshot of your repository to be listed in GitHub.
 	- Example: git commit -m "Updated Example for Readme.md"
@@ -20,7 +22,11 @@
           you are working in to send to GitHub.
 	- Example: git push
 - fetch
+	- Obtains all items from the repository that are not currently being used.
+	- Example: git fetch origin
 - merge
+	- This is used to combine branches into one active one.
+	- git merge example-branch-here
 - pull
 	- This is the most common way to update your repository. Git pull updates any information from your current working branch.
 	- Example: git pull
