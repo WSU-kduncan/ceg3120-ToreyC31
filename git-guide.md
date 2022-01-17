@@ -8,6 +8,9 @@
 	- Clones a repository into a directory.
 	- Example: git clone git@github.com:example/example.git
 - add
+	- This command adds newly made, or newly changed files from your current directory
+          to the cloned repository you currently working from.
+	- Example: git add .
 - rm
 - commit
 - push
