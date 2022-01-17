@@ -13,6 +13,8 @@
 	- Example: git add .
 - rm
 - commit
+	- This commend creates a snapshot of your repository to be listed in GitHub.
+	- Example: git commit -m "Updated Example for Readme.md"
 - push
 	- Pushes the information that was created or changed to the repository that 
           you are working in to send to GitHub.
@@ -20,6 +22,8 @@
 - fetch
 - merge
 - pull
+	- This is the most common way to update your repository. Git pull updates any information from your current working branch.
+	- Example: git pull
 - branch
 - checkout
 - init (NOT YET)
