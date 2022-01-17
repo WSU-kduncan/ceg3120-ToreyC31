@@ -5,13 +5,14 @@
           - list of files in local folder that have changes that need to be committed
       - git status
 - clone
+	- Clones a repository into a directory.
+	- Example: git clone git@github.com:examp;e/example.git
 - add
 - rm
 - commit
 - push
       - Pushes the information that was created or changed to the repository that
-        you are working in to send to GitHub. 
-
+        you are working in to send to GitHub.
       - git push
 - fetch
 - merge
