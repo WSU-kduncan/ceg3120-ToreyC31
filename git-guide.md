@@ -28,7 +28,8 @@
 	- This is used to combine branches into one active one.
 	- git merge example-branch-here
 - pull
-	- This is the most common way to update your repository. Git pull updates any information from your current working branch.
+	- This is the most common way to update your repository. Git pull updates any information from
+ your current working branch.
 	- Example: git pull
 - branch
 	- This command, pending the version used, will list, create or delete branches.
@@ -54,5 +55,7 @@ GitHub:
 - Pull requests
 	- Pull requests lets you tell others about changes you have made in a branch.
 - SSH authentication to repositories
+	- SSH'ing for repositories makes it a secure connection from Github to your one specific device 
+to protect from outside sources being able to use such connection without your device.
 - Actions (NOT YET)
 
