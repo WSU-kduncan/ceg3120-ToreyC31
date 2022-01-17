@@ -10,7 +10,7 @@
 - commit
 - push
       - Pushes the information that was created or changed to the repository that
-        you are working in to send to GitHub.
+        you are working in to send to GitHub. \n
       - git push
 - fetch
 - merge
