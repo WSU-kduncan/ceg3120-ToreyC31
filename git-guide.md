@@ -31,19 +31,28 @@
 	- This is the most common way to update your repository. Git pull updates any information from your current working branch.
 	- Example: git pull
 - branch
+	- This command, pending the version used, will list, create or delete branches.
+	- Example to delete a branch: git branch -d example
 - checkout
+	- Creates a branch, assists to get to said branch.
+	- Example: git checkout example-branch
 - init (NOT YET)
+	- turns any directory or item into a repo
+	- Example to turn a directoru into a git repo: git init example-directory-name
 - remote (NOT YET)
 
 git files & folders:
 
 - .git folder
+	- the folder created once you run git init
 - .gitignore file
+	- A PT file that contains items to ignore, such as files/directories.
 - .git/hooks (NOT YET)
 
 GitHub:
 
 - Pull requests
+	- Pull requests lets you tell others about changes you have made in a branch.
 - SSH authentication to repositories
 - Actions (NOT YET)
 
