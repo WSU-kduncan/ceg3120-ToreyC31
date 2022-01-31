@@ -1,8 +1,8 @@
 - Setup
 	- How to get an API Token?
-
+		- 
 	- Where do you put it to work with your code?
-
+		- In a .env file in same directory of your bot.py
 	- dependencies (what packages need to be installed to run the code)
 - Usage
         - with your changes to the code in place, describe
