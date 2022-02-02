@@ -1,16 +1,15 @@
 - Setup
 	- How to get an API Token?
-		- 
+		- Goto the Developer Section of your bot and Copy token from there
 	- Where do you put it to work with your code?
 		- In a .env file in same directory of your bot.py
 	- dependencies (what packages need to be installed to run the code)
+		- Had to install pip, python3, discord.py and python dotenv
 - Usage
-        - with your changes to the code in place, describe
-          what commands you can type in your Discord server
-          what response this will provide (from your bot)
+        - I changed an entire section of the code to give a shout out to the Wright State Call of Duty Team whenever you type 'Go Raiders'. 
+	- Command to use is Go Raiders!
+	- Command will result saying goodluck to the team and when they play.
 - Research
         - you may have realized that it is lame that it only runs
 	  when you run the program.
-          In the real world, things are "always on", not waiting for Bob to turn his PC on and make sure the program is running.
-        Research some possible solutions that would solve this, and discuss why you think it would work.
-
+          In the real world
