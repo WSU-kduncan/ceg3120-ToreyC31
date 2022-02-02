@@ -49,5 +49,7 @@ async def on_message(message):
         #response = random.choice(brooklyn_99_quotes)
         response = random.choice(hitchhiker_quotes)
         await message.channel.send(response)
-
+    if message.content == 'Go Raiders!':
+        response = ['Go Raiders! Come watch the Wright State CoD Team on Monday nights!']
+        await message.channel.send(response)
 client.run(TOKEN)
