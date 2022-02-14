@@ -40,3 +40,4 @@ I clicked Associate Elastic Ip and assigned it a private ip and to a key.
 8.
 ![Instance](https://user-images.githubusercontent.com/77283021/153880458-2a04eb38-d467-4e2c-85a3-0b89442a576a.png)
 9. Changed the hostname with the following command: sudo hostnamectl set-hostname Carroll-AMI --static
+![SSH Screenshot](https://user-images.githubusercontent.com/77283021/153885464-84d995be-0d1a-4b82-a38f-72133b8f9d3b.png)
