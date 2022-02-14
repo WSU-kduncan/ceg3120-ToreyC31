@@ -25,7 +25,7 @@ Instances within the VPC
 
 PART TWO
 
-1. Create an AMI:  
+1. Create an AMI:
 - Ubuntu Server 18.04 LTS  
 - t2.micro (Auto-Picked)
 2. When I clicked "Configure Network Details" and went to the respected page, I scrolled down to "Network" and assigned it to my respected VPC.
