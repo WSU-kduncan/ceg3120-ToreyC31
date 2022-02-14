@@ -33,5 +33,9 @@ PART TWO
 4. As suggested in class, I selected 16GB of gp2 SSD Volume Space.
 5. When brought to the Tags page, there is not an automatic tag. This required me to click
 "Add Tag". I changed the Key to be "Name" and Value to be "Carroll-instance" as requested per Project 2 guidelines
-6. I want to Elastic IP's in AWS Environment. Clicked on "Allocate Elastic IP address".
-7. Clicked "Add Tag" and gave the Key as "Name" with a value of "Carroll-EIP". Then clicked Allocate.
+6. Went brought to security group page, I selected the sg in which i made.
+7. I want to Elastic IP's in AWS Environment. Clicked on "Allocate Elastic IP address".
+Clicked "Add Tag" and gave the Key as "Name" with a value of "Carroll-EIP". Then clicked Allocate.
+I clicked Associate Elastic Ip and assigned it a private ip and to a key.
+8.
+![Instance](https://user-images.githubusercontent.com/77283021/153880458-2a04eb38-d467-4e2c-85a3-0b89442a576a.png)
