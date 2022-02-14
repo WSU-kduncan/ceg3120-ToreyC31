@@ -23,3 +23,8 @@ Wright State (addresses starting with 130.108)
 Instances within the VPC
 ![Carroll-sg](https://user-images.githubusercontent.com/77283021/153804876-db4e6aac-2dcb-4719-939b-5bb26c33c0bc.PNG)
 
+PART TWO
+
+1. Create an AMI:  
+Ubuntu Server 18.04 LTS  
+t2.micro
