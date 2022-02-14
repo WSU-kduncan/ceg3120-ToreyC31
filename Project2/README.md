@@ -27,7 +27,7 @@ PART TWO
 
 1. Create an AMI:  
 Ubuntu Server 18.04 LTS  
-t2.micro
+t2.micro (Auto-Picked)
 
 2. When I clicked "Configure Network Details" and went to the respected page, I scrolled down to "Network" and assigned it to my respected VPC.
 
@@ -35,4 +35,7 @@ t2.micro
 
 4. As suggested in class, I selected 16GB of gp2 SSD Volume Space.
 
-5.
+5. When brought to the Tags page, there is not an automatic tag. This required me to click
+"Add Tag". I changed the Key to be "Name" and Value to be "Carroll-instance" as requested per Project 2 guidelines
+
+6.
