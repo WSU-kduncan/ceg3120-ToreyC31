@@ -1,7 +1,8 @@
 PART ONE
 
 
-1. Create a VPC using the tag "YOURLASTNAME-VPC' with a /24 private IP address range
+1. Create a VPC using the tag "YOURLASTNAME-VPC' with a /24 private IP address range  
+Creates a Private cloud that someone can connect to an instance.
 ![Carroll-VPC](https://user-images.githubusercontent.com/77283021/153804860-2c0ed028-e99f-43cd-891f-d2a21154cfb2.PNG)
 
 2. Create a subnet using the tag "YOURLASTNAME-Subnet" with an /28 private IP address range and attach it to your VPC
