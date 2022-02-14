@@ -12,6 +12,8 @@ PART ONE
 
 4. Create a route table and tag it with "YOURLASTNAME-routetable", attach it to your VPC, associate it with your subnet
 Add a routing table rule that sends traffic to all destinations to your internet gateway
+![Carroll-routetable](https://user-images.githubusercontent.com/77283021/153805309-6d1e36e7-7e6a-477c-97f5-c787cac495b0.PNG)
+
 
 5. Create a security group, tag it with "YOURLASTNAME-sg". Allow SSH for a set of trusted networks including:
 - Your home / where you usually connect to your instances from
