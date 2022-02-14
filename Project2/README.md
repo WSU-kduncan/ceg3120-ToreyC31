@@ -28,3 +28,11 @@ PART TWO
 1. Create an AMI:  
 Ubuntu Server 18.04 LTS  
 t2.micro
+
+2. When I clicked "Configure Network Details" and went to the respected page, I scrolled down to "Network" and assigned it to my respected VPC.
+
+3. I disabled this option, and plan on attaching an Elastic IP to the instance.
+
+4.
+
+5.
