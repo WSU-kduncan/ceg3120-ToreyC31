@@ -39,3 +39,4 @@ Clicked "Add Tag" and gave the Key as "Name" with a value of "Carroll-EIP". Then
 I clicked Associate Elastic Ip and assigned it a private ip and to a key.
 8.
 ![Instance](https://user-images.githubusercontent.com/77283021/153880458-2a04eb38-d467-4e2c-85a3-0b89442a576a.png)
+9. Changed the hostname with the following command: sudo hostnamectl set-hostname Carroll-AMI --static
