@@ -33,6 +33,6 @@ t2.micro
 
 3. I disabled this option, and plan on attaching an Elastic IP to the instance.
 
-4.
+4. As suggested in class, I selected 16GB of gp2 SSD Volume Space.
 
 5.
