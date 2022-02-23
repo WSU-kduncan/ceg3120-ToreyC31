@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: >-
-  Testing area for AWS: This template builds a linux VM for CEG 2350 @ WSU.
+  Testing area for AWS: Carroll CF Template. This template will create a vpc, allow ssh access from trusted networks, and create a single instance with an Elastic IP.
 Parameters:
   KeyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
