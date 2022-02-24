@@ -1,9 +1,9 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: >-
-  Testing area for AWS: This template builds a linux VM for CEG 2350 @ WSU.
+        Testing area for AWS: Carroll's CF creates a vpc, allows access via ssh'ing from an trusted network and then creates a single instance.
 Parameters:
   KeyName:
-    Description: Carroll CF Template to create a VPC, allow SSH access from trusted networks, and create a single instance with an Elastic IP address
+    Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
     Type: 'AWS::EC2::KeyPair::KeyName'
     ConstraintDescription: must be the name of an existing EC2 KeyPair.
   SSHLocation:
@@ -21,7 +21,7 @@ Mappings:
   AWSRegionUbuntu: # AMI for Ubuntu server in each supported region 
     us-east-1:   # N. Virginia
       PV64: NOT_SUPPORTED
-      HVM64: ami-0e472ba40eb589f49
+      HVM64: ami-04505e74c0741db8d
       HVMG2: NOT_SUPPORTED
 Resources:
   VPC:
