@@ -1,9 +1,9 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: >-
-  Testing area for AWS: Carroll CF Template. This template will create a vpc, allow ssh access from trusted networks, and create a single instance with an Elastic IP.
+  Testing area for AWS: This template builds a linux VM for CEG 2350 @ WSU.
 Parameters:
   KeyName:
-    Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
+    Description: Carroll CF Template to create a VPC, allow SSH access from trusted networks, and create a single instance with an Elastic IP address
     Type: 'AWS::EC2::KeyPair::KeyName'
     ConstraintDescription: must be the name of an existing EC2 KeyPair.
   SSHLocation:
@@ -42,7 +42,7 @@ Resources:
         - Key: Application
           Value: !Ref 'AWS::StackId'
         - Key: Name
-          Value: Carroll-CF-SubNet
+          Value: Carroll-CF-subnet
   InternetGateway:
     Type: 'AWS::EC2::InternetGateway'
     Properties:
@@ -61,8 +61,6 @@ Resources:
       Tags:
         - Key: Application
           Value: !Ref 'AWS::StackId'
-        - Key: Name
-          Values: Carroll-CF-RouteTable
   Route:
     Type: 'AWS::EC2::Route'
     DependsOn: AttachGateway
@@ -85,7 +83,7 @@ Resources:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
       VpcId: !Ref VPC
-      GroupDescription: Enable SSH access via port 22 and open all internal ports.
+      GroupDescription: Enable SSH access via port 22 and open all insternal ports.
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: '22'
@@ -95,7 +93,7 @@ Resources:
           FromPort: '22'
           ToPort: '22'
           CidrIp: 130.108.0.0/16  # WSU CIDR
-        - IpProtocol: tcp
+        - IpProtocol: 22
           FromPort: '22'
           ToPort: '22'
           CidrIp: 10.0.0.0/24
@@ -118,7 +116,7 @@ Resources:
         - Key: Name
           Value: CEG2350 Ubuntu
         - Key: Name
-          Value: Carroll-CF-Instance
+          Value: Carroll-CF-instance
       NetworkInterfaces:
         - GroupSet:
             - !Ref Lab1SecurityGroup
@@ -137,5 +135,5 @@ Resources:
               git \
               pip3 \
               python3 && \
-            echo "Congrats! Your CF Template Works." > /home/ubuntu/hello.txt && \
+            echo "Congrats. This is successfully done from Carroll's Cloud Formation Template." > /home/ubuntu/hello.txt && \
             reboot
