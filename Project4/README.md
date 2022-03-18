@@ -11,7 +11,7 @@ Setup the following and add documentation or screenshots to your `README.md` fil
      - What file(s) where modified & their location
      - What configuration(s) were set (if any)
      - How to restart the service after a configuration change
-      - "sudo systemctl restart haproxy"
+         - "sudo systemctl restart haproxy"
 4. **_Webserver 1 & 2 configuration & documentation requirements_**
    - How set up a webserver
      - What file(s) were modified & their location
