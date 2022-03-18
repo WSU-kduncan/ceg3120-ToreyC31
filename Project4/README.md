@@ -29,7 +29,9 @@ Setup the following and add documentation or screenshots to your `README.md` fil
 
 5. From the browser, when connecting to the proxy server, take two screenshots.
    - one screenshot that shows content from "server 1"
+            - ![server1](https://user-images.githubusercontent.com/77283021/159075565-7577690e-04e8-4602-93d2-149345507059.PNG)
    - one screenshot that shows content from "server 2"
+            - ![Server2](https://user-images.githubusercontent.com/77283021/159075569-3295e3eb-690c-4b7c-99e6-0b8d4a4bd0e7.PNG)
 
 6. Resources used for Project 3
    - Lecture Recordings
