@@ -37,8 +37,10 @@ Setup the following and add documentation or screenshots to your `README.md` fil
    Link to click on for Server
    - Link: [Web Server Link](http://54.211.45.114/?C=N;O=A)
 
-7. Resources used for Project 3
+7. Resources used for Project 4
    - Lecture Recordings
    - Lecture notes
    - https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
       - As used in class
+   - https://dzone.com/articles/implementing-load-balancer-using-haproxy-on-aws
+   - https://www.linkedin.com/pulse/configure-load-balancer-haproxy-using-aws-ec2-instances-ananya-jain/
