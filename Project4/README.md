@@ -18,7 +18,12 @@ Setup the following and add documentation or screenshots to your `README.md` fil
      - What configuration(s) were set (if any)
      - Where site content files were located (and why)
      - How to restart the service after a configuration change
-     - Resources used (websites)
 5. From the browser, when connecting to the proxy server, take two screenshots.
    - one screenshot that shows content from "server 1"
    - one screenshot that shows content from "server 2"
+
+6. Resources used for Project 3
+   - Lecture Recordings
+   - Lecture notes
+   - https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
+      - As used in class
