@@ -22,7 +22,11 @@ Setup the following and add documentation or screenshots to your `README.md` fil
      - What configuration(s) were set (if any)
           - No configurations set
      - Where site content files were located (and why)
+          - Location is /var/www/html
+          - Located here because of apache2 having this set as the default location to pull from.
      - How to restart the service after a configuration change
+          - sudo systemctl restart apache2
+
 5. From the browser, when connecting to the proxy server, take two screenshots.
    - one screenshot that shows content from "server 1"
    - one screenshot that shows content from "server 2"
