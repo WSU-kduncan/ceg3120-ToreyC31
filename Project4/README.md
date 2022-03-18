@@ -18,7 +18,9 @@ Setup the following and add documentation or screenshots to your `README.md` fil
 4. **_Webserver 1 & 2 configuration & documentation requirements_**
    - How set up a webserver
      - What file(s) were modified & their location
+            - /var/www/html/index.html was modified
      - What configuration(s) were set (if any)
+            - No configurations set
      - Where site content files were located (and why)
      - How to restart the service after a configuration change
 5. From the browser, when connecting to the proxy server, take two screenshots.
